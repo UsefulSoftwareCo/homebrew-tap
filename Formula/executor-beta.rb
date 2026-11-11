@@ -2,28 +2,28 @@
 class ExecutorBeta < Formula
   desc "Run Executor locally and connect your agents to your apps"
   homepage "https://executor.sh"
-  version "2.0.0-beta.40"
+  version "2.0.0-beta.41"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.40/executor-2.0.0-beta.40-darwin-arm64.tgz"
-      sha256 "85ae709121e94e10216e3a8e7b6e547fa2fb1f40077507d3e6c2fa21776da07a"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.41/executor-2.0.0-beta.41-darwin-arm64.tgz"
+      sha256 "c04216f3a539f9c1a025d32823cba3b6f608b097de45553e49882d82f7904725"
     end
     on_intel do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.40/executor-2.0.0-beta.40-darwin-x64.tgz"
-      sha256 "6ec9505e1aeae66bb13370577a1446fbabdaf7ad7a3947f377de0513e44c8bc5"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.41/executor-2.0.0-beta.41-darwin-x64.tgz"
+      sha256 "b4f39424c3c4558f4dfaae9964765556d8b0d5e5b13b09edaef547f40b509af3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.40/executor-2.0.0-beta.40-linux-arm64.tgz"
-      sha256 "23791582608c449cd070668cebe024df2dbb11b914a32aec4abbd2abb7c0e080"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.41/executor-2.0.0-beta.41-linux-arm64.tgz"
+      sha256 "2536bb1c1802451652fe4e1d6b42f023dc2e0e0f8f621407be3639746d47157e"
     end
     on_intel do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.40/executor-2.0.0-beta.40-linux-x64.tgz"
-      sha256 "ee4e11927b3067e80948f1ffb9187ad52f9bb39fee2ae7c22fa39933d8aa0cac"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.41/executor-2.0.0-beta.41-linux-x64.tgz"
+      sha256 "2baf19cbfb8dc6c5cb561642c3a8e506c163cadaa8015cebff709797dd55f144"
     end
   end
 
