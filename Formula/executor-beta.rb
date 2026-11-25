@@ -2,28 +2,28 @@
 class ExecutorBeta < Formula
   desc "Run Executor locally and connect your agents to your apps"
   homepage "https://executor.sh"
-  version "2.0.0-beta.75"
+  version "2.0.0-beta.76"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.75/executor-2.0.0-beta.75-darwin-arm64.tgz"
-      sha256 "03dee9c1a53509ef2c9e528971596ceed15d8e8b8cb7768fc891dfea35d20f49"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.76/executor-2.0.0-beta.76-darwin-arm64.tgz"
+      sha256 "65e3c0d8628fa0bca07743e1ab7e49567423cae4fbe718946bfd1c07dea49edb"
     end
     on_intel do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.75/executor-2.0.0-beta.75-darwin-x64.tgz"
-      sha256 "c254f172d6b91549c309f68fc0986d546f4afed42eeee245bfd37d98252eb1c5"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.76/executor-2.0.0-beta.76-darwin-x64.tgz"
+      sha256 "a996ec722ee6e3cc332f74d4875cbe6b63117c11d57d998ebdf9c5ca439553ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.75/executor-2.0.0-beta.75-linux-arm64.tgz"
-      sha256 "e0668415c3afc6daefd11dfdf0c599fa4364bf94c2834c4830c0c4cf4ac16756"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.76/executor-2.0.0-beta.76-linux-arm64.tgz"
+      sha256 "d4910e17aeba1db29ea81480f4d6e7b7f7f58fe08c79d0d552e06e66f9ea842d"
     end
     on_intel do
-      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.75/executor-2.0.0-beta.75-linux-x64.tgz"
-      sha256 "cdacae677f7bd98ec7e72bd1bd144906c0e2d3b534dba6cbb63bd2633b1356d0"
+      url "https://github.com/UsefulSoftwareCo/executor/releases/download/executor%402.0.0-beta.76/executor-2.0.0-beta.76-linux-x64.tgz"
+      sha256 "4e41ededad154e11e86a709a72fd7c92ab674ecb89705d5ce97d66aec7083c6c"
     end
   end
 
